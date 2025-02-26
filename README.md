@@ -1,22 +1,5 @@
 # MediAssist
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Problem Statement](#problem-statement)
-3. [Solution](#solution)
-4. [Features](#features)
-5. [Technology Stack](#technology-stack)
-6. [Implementation Approach](#implementation-approach)
-7. [Scaling Parameters](#scaling-parameters)
-8. [Rollout Strategy](#rollout-strategy)
-9. [Security Measures](#security-measures)
-10. [AI Usage](#ai-usage)
-11. [Alternatives Considered](#alternatives-considered)
-12. [Setup for Local Development](#setup-for-local-development)
-13. [Deployment](#deployment)
-14. [References](#references)
-15. [License](#license)
-
 ## Overview
 MediAssist is an AI-powered platform that streamlines prescription management by converting handwritten prescriptions into digital records using Optical Character Recognition (OCR) and Natural Language Processing (NLP). It ensures accuracy in medication dispensation, provides personalized health recommendations, and securely logs transactions on the blockchain for transparency and fraud prevention. By integrating AI and blockchain, MediAssist enhances efficiency, security, and accessibility in pharmacy operations.
 
@@ -45,17 +28,6 @@ MediAssist addresses these challenges by digitizing handwritten prescriptions wi
 2. **NLP Processing**: Extract relevant details (medicine name, dosage, doctor/patient info) and validate them.
 3. **Blockchain Recording**: Store verified prescription transactions on the blockchain for secure record-keeping.
 4. **Health Insights Generation**: Provide dietary, physical activity, and sleep recommendations based on prescriptions.
-
-## Scaling Parameters
-- **Data Size**: Small transaction records per user, scalable for a growing database.
-- **Throughput**: Handles hundreds to thousands of transactions per minute.
-- **OCR Accuracy**: Achieves 98% accuracy even with difficult handwriting.
-- **Blockchain Transactions**: Optimized for cost and speed, ensuring secure and timely recording.
-
-## Rollout Strategy
-1. **Pilot Phase**: Limited user testing with pharmacists and patients.
-2. **Scalability Testing**: Enhance performance and feature set based on user feedback.
-3. **Full Deployment**: Broader release with additional features like real-time notifications.
 
 ## Security Measures
 - **Blockchain Immutability**: Ensures data cannot be altered or tampered with.

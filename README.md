@@ -18,17 +18,13 @@
 15. [License](#license)
 
 ## Overview
-MediAssist is an AI-powered software designed to digitize handwritten prescriptions, improving drug management efficiency and security. The platform uses Optical Character Recognition (OCR) and Natural Language Processing (NLP) to extract medication details, ensuring pharmacists have an organized and error-free workflow. Additionally, MediAssist provides personalized health recommendations and securely records every drug transaction on the blockchain for transparency and accountability.
+MediAssist is an AI-powered platform that streamlines prescription management by converting handwritten prescriptions into digital records using Optical Character Recognition (OCR) and Natural Language Processing (NLP). It ensures accuracy in medication dispensation, provides personalized health recommendations, and securely logs transactions on the blockchain for transparency and fraud prevention. By integrating AI and blockchain, MediAssist enhances efficiency, security, and accessibility in pharmacy operations.
 
 ## Problem Statement
-Pharmacists often struggle with illegible handwritten prescriptions, leading to errors, delays, and risks to patient safety. Moreover, patients receive medication without adequate guidance on lifestyle factors essential for recovery. Additionally, manual record-keeping in pharmacies results in inefficiencies and fraud. 
+Pharmacists frequently encounter illegible handwritten prescriptions, leading to misinterpretations, medication errors, and delays in patient care. Additionally, patients often receive prescriptions without sufficient guidance on essential recovery factors like diet, exercise, and sleep. Manual record-keeping in pharmacies further contributes to inefficiencies, stock mismanagement, and potential fraud. Existing solutions either lack automation or fail to ensure security in prescription handling. MediAssist tackles these issues by digitizing prescriptions, offering AI-driven health insights, and leveraging blockchain for secure and tamper-proof medical record management.
 
 ## Solution
-MediAssist addresses these challenges by implementing an AI-powered solution that:
-- **Automates Prescription Digitization**: Uses OCR technology to extract text from handwritten prescriptions with high accuracy.
-- **Provides Personalized Health Insights**: Offers diet, exercise, and sleep recommendations based on prescribed medications.
-- **Enhances Security and Transparency**: Stores all medical transactions on the blockchain to ensure data integrity and prevent fraud.
-- **Improves Pharmacy Management**: Automates stock tracking and prescription validation, reducing errors and inefficiencies.
+MediAssist addresses these challenges by digitizing handwritten prescriptions with high-accuracy OCR, reducing errors and delays in medication dispensation. It enhances patient care by providing personalized health insights, including tailored diet, exercise, and sleep recommendations based on prescribed medications. To ensure security and transparency, all prescription transactions are securely recorded on the blockchain, preventing fraud and unauthorized modifications. Additionally, by integrating MetaMask, the system ensures that only verified users can access blockchain-based features, maintaining data integrity and authenticity. Through AI-driven automation and decentralized record-keeping, MediAssist streamlines pharmacy operations, improves patient safety, and enhances overall healthcare efficiency.
 
 ## Features
 - **Handwritten Prescription Digitization**: Uses AI-driven OCR for accurate extraction of prescription details.

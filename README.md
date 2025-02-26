@@ -92,6 +92,12 @@ MediAssist leverages AI for:
    ```
 
 ## Screenshots
+![Screenshot 2025-02-26 114402](https://github.com/user-attachments/assets/78f4a0f7-abff-48b9-bfc7-7738e56cd988)
+
+![Screenshot 2025-02-26 115438](https://github.com/user-attachments/assets/01cea6cc-6b7b-4b2c-8a26-1720b5669f2c)
+
+![Screenshot 2025-02-26 115426](https://github.com/user-attachments/assets/90b8cad5-23e1-455d-8d53-f0104e912629)
+
 
 ## Deployment
 Live Demo: [Google Hackathon 2025 Website](http://google-hackathon-2025.vercel.app)

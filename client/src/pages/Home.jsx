@@ -1,10 +1,10 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 
-const Home = () => {
+const Home = ({state}) => {
   return (
     <div>
-        <HeroSection/>
+        <HeroSection state={state}/>
 
     </div>
   )

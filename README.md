@@ -1,4 +1,4 @@
-# MediAssist
+![Screenshot 2025-02-26 115954](https://github.com/user-attachments/assets/dd9b97e5-b104-4283-9fac-5a1f2efe1bd5)# MediAssist
 
 ## Overview
 MediAssist is an AI-powered platform that streamlines prescription management by converting handwritten prescriptions into digital records using Optical Character Recognition (OCR) and Natural Language Processing (NLP). It ensures accuracy in medication dispensation, provides personalized health recommendations, and securely logs transactions on the blockchain for transparency and fraud prevention. By integrating AI and blockchain, MediAssist enhances efficiency, security, and accessibility in pharmacy operations.
@@ -92,11 +92,18 @@ MediAssist leverages AI for:
    ```
 
 ## Screenshots
+HomePage
 ![Screenshot 2025-02-26 114402](https://github.com/user-attachments/assets/78f4a0f7-abff-48b9-bfc7-7738e56cd988)
-
+Uploding Image
 ![Screenshot 2025-02-26 115438](https://github.com/user-attachments/assets/01cea6cc-6b7b-4b2c-8a26-1720b5669f2c)
+Ai Report Analysis
+![Uploading Screenshot 2025-02-26 115954.png…]()
+Downloadable PDF Report
+![Screenshot 2025-02-26 120026](https://github.com/user-attachments/assets/74e166d2-da4c-4908-88f5-8953763813bd)
+![Screenshot 2025-02-26 120052](https://github.com/user-attachments/assets/fff6a1b5-c993-42d2-bcbf-bc95b8d3cbf5)
+Record Storage and Retrieval from Blockchain
+![image](https://github.com/user-attachments/assets/84ce6be0-9b93-4ee7-ae7b-8e0fe5c35737)
 
-![Screenshot 2025-02-26 115426](https://github.com/user-attachments/assets/90b8cad5-23e1-455d-8d53-f0104e912629)
 
 
 ## Deployment

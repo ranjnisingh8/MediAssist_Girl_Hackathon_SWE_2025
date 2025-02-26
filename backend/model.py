@@ -14,7 +14,7 @@ app = FastAPI()
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Allow all origins for development
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
@@ -48,7 +48,7 @@ def OCR(image_data: bytes, prompt: str) -> Dict:
     
     try:
         response = requests.post(GEMINI_API_URL, headers=headers, params=params, json=payload)
-        response.raise_for_status()
+        response.raise_for_status()  # Raise exception for HTTP errors
         response_json = response.json()
         
         return response_json
@@ -56,6 +56,22 @@ def OCR(image_data: bytes, prompt: str) -> Dict:
     except Exception as e:
         return {"error": str(e)}
 
+@app.post("/uploadfile/")
+async def extract_text(file: UploadFile = File(...)):
+    try:
+        image_data = await file.read()
+        prompt = 'Extract details from the medical prescription: Name, Doctor, Date, and Medicines with dosage in JSON.'
+        extracted_data = OCR(image_data, prompt)
+        return extracted_data
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)}
+        )
+
+@app.get("/test-cors/")
+async def test_cors():
+    return {"message": "CORS is working!"}
 
 if __name__ == "__main__":
     import uvicorn

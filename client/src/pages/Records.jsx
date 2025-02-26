@@ -3,6 +3,7 @@ import { FaDownload, FaSearch } from 'react-icons/fa';
 
 const Records = ({ state }) => {
   const { contract } = state;
+
   const [orders, setOrders] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -10,7 +11,7 @@ const Records = ({ state }) => {
     if (contract) {
       fetchRecords();
     }
-  }, [contract]); // Automatically fetch data when contract is available
+  }); // Automatically fetch data when contract is available
 
   const fetchRecords = async () => {
     try {
@@ -31,11 +32,13 @@ const Records = ({ state }) => {
             dosage: med.dosage
           }))
         };
+        console.log(formattedOrder)
 
         fetchedOrders.push(formattedOrder);
       }
 
       setOrders(fetchedOrders);
+      console.log(fetchedOrders)
     } catch (error) {
       console.error("Error fetching records:", error);
     }

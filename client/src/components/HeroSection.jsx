@@ -106,8 +106,8 @@ const HeroSection = ({ state }) => {
     <section className="bg-white px-8 md:px-16 py-12 max-w-6xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">PharmaBee - AI Health Insights</h1>
-          <p className="text-gray-600 mt-4">Upload a prescription, and our AI will provide health insights and wellness tips.</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">MediAssist</h1>
+          <p className="text-gray-600 mt-4">Upload a prescription, and let our AI create an order for you.</p>
           <div className="mt-6 border p-4 rounded-lg shadow-sm bg-gray-100">
             <input type="file" onChange={handleFileChange} className="w-full border p-2 rounded-md bg-white" />
             <button

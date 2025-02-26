@@ -48,6 +48,9 @@ async def OCR(file: UploadFile, prompt: str = ''):
             }
         ]
         }
+        
+        If you think the medicine or dosage doesn't exist, find the closest medicines and dosager that exist.
+        You have the permission to search the web for this.
         '''
 
     # Now encode the image data

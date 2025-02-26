@@ -26,7 +26,7 @@ const HeroSection = ({ state }) => {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch("http://localhost:8000/uploadfile/", {
+      const response = await fetch("https://mediassist-girl-hackathon-swe-2025.onrender.com/uploadfile/", {
         method: "POST",
         body: formData,
         headers: { "Accept": "application/json" },

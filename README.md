@@ -16,7 +16,6 @@
 13. [Deployment](#deployment)
 14. [References](#references)
 15. [License](#license)
-16. [Contact](#contact)
 
 ## Overview
 MediAssist is an AI-powered software designed to digitize handwritten prescriptions, improving drug management efficiency and security. The platform uses Optical Character Recognition (OCR) and Natural Language Processing (NLP) to extract medication details, ensuring pharmacists have an organized and error-free workflow. Additionally, MediAssist provides personalized health recommendations and securely records every drug transaction on the blockchain for transparency and accountability.
@@ -93,30 +92,38 @@ MediAssist leverages AI for:
    cd MediAssist_Girl_Hackathon_SWE_2025
    ```
 
-2. **Setup the backend**:
+2. **Create a `.env` file** and add your Gemini API key and model URL:
+   ```sh
+   GEMINI_API_KEY=your_api_key_here
+   GEMINI_MODEL_URL=your_model_url_here
+   ```
+
+3. **Setup the backend**:
    ```sh
    cd backend
    pip install -r requirements.txt
    uvicorn main:app --reload
    ```
 
-3. **Setup the frontend**:
+4. **Setup the frontend**:
    ```sh
    cd frontend
    npm install
    npm start
    ```
 
-4. **Setup MetaMask**:
+5. **Setup MetaMask**:
    - Install the [MetaMask Extension](https://metamask.io/)
    - Create a MetaMask account
    - Connect your wallet to the MediAssist website
    - Only after connecting, you can upload prescription photos and use blockchain features.
 
-5. **Deploy to Vercel (Optional)**:
+6. **Deploy to Vercel (Optional)**:
    ```sh
    vercel
    ```
+
+## Screenshots
 
 ## Deployment
 Live Demo: [Google Hackathon 2025 Website](http://google-hackathon-2025.vercel.app)
@@ -128,7 +135,3 @@ Live Demo: [Google Hackathon 2025 Website](http://google-hackathon-2025.vercel.a
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-**Project Lead**: Ranjni Singh Rajput  
-**Email**: ranjnis08@gmail.com  
-**GitHub**: [MediAssist Repository](https://github.com/ranjnisingh8/MediAssist_Girl_Hackathon_SWE_2025)

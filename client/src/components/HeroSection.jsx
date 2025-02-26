@@ -186,7 +186,7 @@ const HeroSection = ({ state }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-            PharmaBee - AI Health Insights
+            MediAssist
           </h1>
           <p className="text-gray-600 mt-4">
             Upload a prescription, and our AI will provide health insights and wellness tips.

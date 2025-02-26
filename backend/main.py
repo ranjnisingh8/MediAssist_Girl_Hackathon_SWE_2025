@@ -55,7 +55,7 @@ async def OCR(file: UploadFile, prompt: str = ''):
     
     return response_json
 
-@app.post('/uploadfile/')
+@app.post("/uploadfile/")
 async def upload_file(file: UploadFile = File(...), prompt: str = ''):
     try:
         response = await OCR(file, prompt)
@@ -66,9 +66,9 @@ async def upload_file(file: UploadFile = File(...), prompt: str = ''):
         print(traceback.format_exc())
         return {"error": str(e)}
 
-@app.get("/test-cors/")
-async def test_cors():
-    return {"message": "CORS is working!"}
+# @app.get("/test-cors/")
+# async def test_cors():
+#     return {"message": "CORS is working!"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
